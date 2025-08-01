@@ -1,0 +1,156 @@
+/* STYLE SECTIONING TAGS */
+
+/*FONTS*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Cedarville+Cursive&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Special+Gothic+Expanded+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Cedarville+Cursive&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Special+Gothic+Expanded+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Cedarville+Cursive&family=Dawning+of+a+New+Day&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Special+Gothic+Expanded+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Cedarville+Cursive&family=Dawning+of+a+New+Day&family=Gowun+Batang&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Special+Gothic+Expanded+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Cedarville+Cursive&family=Dawning+of+a+New+Day&family=Delius+Unicase:wght@400;700&family=Gowun+Batang&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Special+Gothic+Expanded+One&display=swap');
+
+
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+     background-color: #d1f7ff; 
+}
+
+main {
+   padding: 2em;
+   margin-bottom: 3em; /* Add space before footer */
+ }
+
+
+
+/*HEADER*/
+header, footer {
+   background-color: #b7d4fb;
+   color: white;
+   text-align: center;
+   padding: 20px;
+   font-family: 'Gowun Batang', serif;
+ }
+
+footer {
+   margin-top: 2em; /* Ensure footer has space above it */
+   clear: both; /* Clear any floated elements */
+ }
+
+/* STYLE TEXT */
+
+h1 {
+  color: #041c95;
+   font-family: 'Gowun Batang', serif;
+}
+
+h2 {
+   color: #041c95;
+}
+
+/* STYLE IMAGES */
+img {
+   float: left;
+ }
+
+
+
+
+
+/* STYLE NAV BAR */
+nav {
+   background-color: #89c9f0;
+   padding: 1em;
+   text-align: center;
+   font-family: 'Nanum Pen Script', serif;
+ }
+nav a {
+   transition: all 0.3s ease;
+   padding: 8px 12px;
+   text-decoration: none;
+   border-radius: 4px;
+ }
+
+ nav a:hover {
+   background-color: #b0dcf7;
+   color: #73b1b5;
+   transform: scale(1.05);
+ }
+/* STYLE BUTTONS */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #b8f3ff;
+  border: 2px solid #041c95;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #b0dcf7;
+  transform: scale(1.05);
+}
+
+.button-container {
+   border: 3px solid #041c95;
+   border-radius: 15px;
+   padding: 20px;
+   margin: 30px auto;
+   width: fit-content;
+   background: #c2ccff;
+}
+
+#myButton{
+   background: #fffacd;
+   border-radius: 10px;
+   border: 3px solid #041c95;
+   padding: 15px;
+   margin-top: 20px;
+   margin-left: 0;
+   margin-right: 0;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+   font-family: 'Nanum Pen Script', bold;
+   font-size: 2em;
+   text-align: center;
+   line-height: 1.2em;
+   color: #041c95
+}
+
+#fact {
+   border-style: none;
+   padding: 15px;
+   margin-top: 30px;
+   margin-left: 15%;
+   margin-right: 15%;
+   font-family: 'Gowun Batang', bold;
+   font-size: 2em;
+   text-align: center;
+   line-height: 1.2em;
+   color: #041c95
+}
+
+
+/* STYLE SECTIONS */
+section {
+  margin-bottom: 2em;
+  padding: 1em;
+  border: 1px solid #100eaa;
+  background-color: #70d4ff;
+  overflow: hidden; 
+}
+
